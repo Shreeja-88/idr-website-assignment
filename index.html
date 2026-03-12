@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="IDR — Institute of Digital Risk. Building the next generation of cyber, technology, and digital risk professionals." />
+    <title>IDR — Institute of Digital Risk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ═══════════════════════════════════════════
+       HEADER / STICKY NAV
+  ═══════════════════════════════════════════ -->
+    <header class="site-header" id="site-header" role="banner">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a href="#hero" class="nav-logo" aria-label="IDR Home">
+                <div class="logo">
+                    <img src="logo.png" alt="IDR Logo">
+                </div>
+            </a>
+
+            <!-- Mobile hamburger -->
+            <button class="hamburger" id="hamburger" aria-controls="nav-menu" aria-expanded="false"
+                aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu" role="list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Programs</a></li>
+                <li><a href="#innovation" class="nav-link">Innovation</a></li>
+                <li><a href="#community" class="nav-link">Community</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="btn btn-nav" aria-label="Apply to IDR programs">Apply Now</a>
+        </nav>
+    </header>
+
+    <!-- ═══════════════════════════════════════════
+       MAIN CONTENT
+  ═══════════════════════════════════════════ -->
+    <main id="main-content">
+
+        <!-- ── HERO ── -->
+        <section class="hero" id="hero" aria-labelledby="hero-heading">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <p class="hero-eyebrow" aria-label="Now enrolling 2025 cohort">
+                        <span class="dot" aria-hidden="true"></span>
+                        Now Enrolling — 2025 Cohort
+                    </p>
+                    <h1 id="hero-heading">
+                        Advancing the Future of
+                        <em>Digital Risk</em>
+                    </h1>
+                    <p class="hero-sub">
+                        Building the next generation of cyber, technology, and digital risk
+                        professionals. Join a global community shaping tomorrow's security landscape.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#services" class="btn btn-primary">Explore Programs</a>
+                        <a href="#contact" class="btn btn-ghost">Hire Talent</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="cube-wrap">
+                        <div class="orbit orbit-1"></div>
+                        <div class="orbit orbit-2"></div>
+                        <div class="orbit orbit-3"></div>
+                        <div class="cube-scene">
+                            <div class="cube">
+                                <div class="face face--front">🛡️</div>
+                                <div class="face face--back">🔐</div>
+                                <div class="face face--left">⚡</div>
+                                <div class="face face--right">🌐</div>
+                                <div class="face face--top">🔮</div>
+                                <div class="face face--bottom">💡</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Decorative background grid -->
+            <div class="hero-bg-grid" aria-hidden="true"></div>
+            <div class="hero-glow" aria-hidden="true"></div>
+        </section>
+
+        <!-- ── STATS ── -->
+        <section class="stats-bar" aria-label="IDR at a glance">
+            <ul class="stats-list" role="list">
+                <li class="stat-item reveal">
+                    <strong class="stat-number">500+</strong>
+                    <span class="stat-label">Students Trained</span>
+                </li>
+                <li class="stat-item reveal">
+                    <strong class="stat-number">30+</strong>
+                    <span class="stat-label">University Partners</span>
+                </li>
+                <li class="stat-item reveal">
+                    <strong class="stat-number">15+</strong>
+                    <span class="stat-label">Industry Partners</span>
+                </li>
+                <li class="stat-item reveal">
+                    <strong class="stat-number">94%</strong>
+                    <span class="stat-label">Placement Rate</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- ── ABOUT ── -->
+        <section class="about section-pad" id="about" aria-labelledby="about-heading">
+            <div class="container about-grid">
+                <div class="about-text reveal">
+                    <p class="eyebrow">About IDR</p>
+                    <h2 id="about-heading">Where Expertise Meets Emerging Risk</h2>
+                    <p>
+                        The Institute of Digital Risk (IDR) is a forward-thinking centre dedicated
+                        to equipping professionals with the knowledge and skills to navigate the
+                        evolving landscape of cyber, technology, and digital risk management.
+                    </p>
+                    <p>
+                        We bridge academia, industry, and government to build a resilient,
+                        talent-rich ecosystem for the digital age.
+                    </p>
+                    <a href="#services" class="btn btn-primary" style="margin-top:1.5rem;display:inline-flex;">Our
+                        Programs</a>
+                </div>
+
+                <div class="about-cards">
+                    <article class="about-card reveal" aria-label="World-Class Faculty">
+                        <span class="card-icon" aria-hidden="true">🎓</span>
+                        <h3>World-Class Faculty</h3>
+                        <p>Learn from practitioners and researchers at the forefront of digital risk.</p>
+                    </article>
+                    <article class="about-card reveal" aria-label="Industry Network">
+                        <span class="card-icon" aria-hidden="true">🤝</span>
+                        <h3>Industry Network</h3>
+                        <p>Direct access to top firms in cyber, fintech, and risk management.</p>
+                    </article>
+                    <article class="about-card reveal" aria-label="Applied Research">
+                        <span class="card-icon" aria-hidden="true">🔬</span>
+                        <h3>Applied Research</h3>
+                        <p>Real-world projects aligned to live industry challenges.</p>
+                    </article>
+                    <article class="about-card reveal" aria-label="Global Community">
+                        <span class="card-icon" aria-hidden="true">🌍</span>
+                        <h3>Global Community</h3>
+                        <p>An alumni network spanning 30+ countries and industries.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── SERVICES ── -->
+        <section class="services section-pad" id="services" aria-labelledby="services-heading">
+            <div class="container">
+                <header class="section-header">
+                    <p class="eyebrow">Our Programs</p>
+                    <h2 id="services-heading">Three Pillars of Excellence</h2>
+                    <p class="section-intro">
+                        IDR operates across three core practice areas, each designed to build
+                        deep expertise and real-world capability.
+                    </p>
+                </header>
+
+                <div class="services-grid">
+                    <article class="service-card reveal" aria-label="IDR Academy">
+                        <div class="service-icon" aria-hidden="true">🎓</div>
+                        <h3>IDR Academy</h3>
+                        <p>
+                            Rigorous training in cybersecurity, digital risk management, technology
+                            governance, and risk frameworks — from foundational to advanced practitioner level.
+                        </p>
+                        <a href="#contact" class="card-link" aria-label="Learn more about IDR Academy">Learn more →</a>
+                    </article>
+
+                    <article class="service-card reveal" aria-label="IDR Innovation">
+                        <div class="service-icon" aria-hidden="true">🔭</div>
+                        <h3>IDR Innovation</h3>
+                        <p>
+                            Cutting-edge research in AI governance, emerging threat intelligence, and
+                            cybersecurity innovation — turning insight into practical enterprise tools.
+                        </p>
+                        <a href="#contact" class="card-link" aria-label="Learn more about IDR Innovation">Learn more
+                            →</a>
+                    </article>
+
+                    <article class="service-card reveal" aria-label="IDR Advisory">
+                        <div class="service-icon" aria-hidden="true">📊</div>
+                        <h3>IDR Advisory</h3>
+                        <p>
+                            Helping organisations implement robust digital risk frameworks, meet compliance
+                            mandates, and build security cultures that scale from startup to enterprise.
+                        </p>
+                        <a href="#contact" class="card-link" aria-label="Learn more about IDR Advisory">Learn more →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── INNOVATION ── -->
+        <section class="innovation section-pad" id="innovation" aria-labelledby="innovation-heading">
+            <div class="container innovation-grid">
+                <div class="innovation-text reveal">
+                    <p class="eyebrow eyebrow--light">Innovation</p>
+                    <h2 id="innovation-heading">Research at the Edge of What's Possible</h2>
+                    <p>
+                        IDR's research agenda is shaped by the real challenges facing digital-first
+                        organisations — from AI risk governance to zero-trust architecture deployment.
+                    </p>
+                    <a href="#contact" class="btn btn-primary" style="margin-top:2rem;display:inline-flex;">Partner With
+                        Us</a>
+                </div>
+
+                <ol class="innovation-list reveal" aria-label="Research focus areas">
+                    <li class="inno-item">
+                        <span class="inno-num" aria-hidden="true">01</span>
+                        <div>
+                            <h3>AI &amp; Algorithmic Risk</h3>
+                            <p>Frameworks to evaluate, monitor, and govern AI systems in high-stakes environments.</p>
+                        </div>
+                    </li>
+                    <li class="inno-item">
+                        <span class="inno-num" aria-hidden="true">02</span>
+                        <div>
+                            <h3>Cyber Threat Intelligence</h3>
+                            <p>Operationalising threat data into actionable defensive strategies at scale.</p>
+                        </div>
+                    </li>
+                    <li class="inno-item">
+                        <span class="inno-num" aria-hidden="true">03</span>
+                        <div>
+                            <h3>Digital Resilience</h3>
+                            <p>Building capacity to anticipate, withstand, and recover from digital disruptions.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ── COMMUNITY ── -->
+        <section class="community section-pad" id="community" aria-labelledby="community-heading">
+            <div class="container">
+                <header class="section-header">
+                    <p class="eyebrow">Our Community</p>
+                    <h2 id="community-heading">Trusted by Leading Institutions</h2>
+                    <p class="section-intro">
+                        IDR partners with universities, corporations, and government bodies
+                        committed to building world-class digital risk talent.
+                    </p>
+                </header>
+
+                <ul class="partners-grid" role="list" aria-label="Partner organisations">
+                    <li class="partner-pill reveal">National University</li>
+                    <li class="partner-pill reveal">TechShield Group</li>
+                    <li class="partner-pill reveal">CyberGov Alliance</li>
+                    <li class="partner-pill reveal">RiskBridge Asia</li>
+                    <li class="partner-pill reveal">FintechRisk Council</li>
+                    <li class="partner-pill reveal">DataSafe Institute</li>
+                    <li class="partner-pill reveal">CloudSec Partners</li>
+                    <li class="partner-pill reveal">OpenRisk Foundation</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ── CONTACT ── -->
+        <section class="contact section-pad" id="contact" aria-labelledby="contact-heading">
+            <div class="container contact-grid">
+
+                <div class="contact-info reveal">
+                    <p class="eyebrow">Contact Us</p>
+                    <h2 id="contact-heading">Let's Start a Conversation</h2>
+                    <p>Whether you're a student, employer, or institution — we'd love to hear from you.</p>
+
+                    <address class="contact-details">
+                        <div class="info-row">
+                            <span class="info-icon" aria-hidden="true">📧</span>
+                            <a href="mailto:hello@idr.institute">hello@idr.institute</a>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon" aria-hidden="true">📞</span>
+                            <a href="tel:+18004373475">+1 (800) IDR-RISK</a>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon" aria-hidden="true">📍</span>
+                            <span>Singapore · London · New York</span>
+                        </div>
+                    </address>
+                </div>
+
+                <div class="contact-form-wrap reveal">
+                    <form class="contact-form" id="contact-form" novalidate aria-label="Contact IDR">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fname">First Name <span aria-hidden="true">*</span></label>
+                                <input type="text" id="fname" name="fname" placeholder="Alex" required
+                                    autocomplete="given-name" aria-required="true" />
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Last Name <span aria-hidden="true">*</span></label>
+                                <input type="text" id="lname" name="lname" placeholder="Chen" required
+                                    autocomplete="family-name" aria-required="true" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="alex@email.com" required
+                                autocomplete="email" aria-required="true" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="interest">I'm interested in</label>
+                            <select id="interest" name="interest">
+                                <option value="">Select an option</option>
+                                <option value="academy">IDR Academy — Training Programs</option>
+                                <option value="innovation">IDR Innovation — Research</option>
+                                <option value="advisory">IDR Advisory — Consulting</option>
+                                <option value="hiring">Hiring IDR Talent</option>
+                                <option value="partnership">Partnership / Sponsorship</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="Tell us a bit about yourself and what you're looking for..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            Send Message →
+                        </button>
+
+                        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#hero" class="nav-logo" aria-label="IDR Home">ID<span>R</span></a>
+                <p>Institute of Digital Risk — shaping the next generation of digital risk professionals worldwide.</p>
+            </div>
+
+            <nav class="footer-nav" aria-label="Footer navigation — Programs">
+                <h3>Programs</h3>
+                <ul role="list">
+                    <li><a href="#services">IDR Academy</a></li>
+                    <li><a href="#services">IDR Innovation</a></li>
+                    <li><a href="#services">IDR Advisory</a></li>
+                </ul>
+            </nav>
+
+            <nav class="footer-nav" aria-label="Footer navigation — Company">
+                <h3>Company</h3>
+                <ul role="list">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#innovation">Research</a></li>
+                    <li><a href="#community">Partners</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <nav class="footer-nav" aria-label="Footer navigation — Resources">
+                <h3>Resources</h3>
+                <ul role="list">
+                    <li><a href="#hero">Blog</a></li>
+                    <li><a href="#hero">Case Studies</a></li>
+                    <li><a href="#hero">Events</a></li>
+                    <li><a href="#hero">Careers</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Institute of Digital Risk. All rights reserved.</p>
+            <div class="social-links" aria-label="Social media links">
+                <a href="#hero" class="social-btn" aria-label="LinkedIn">in</a>
+                <a href="#hero" class="social-btn" aria-label="Twitter / X">𝕏</a>
+                <a href="#hero" class="social-btn" aria-label="YouTube">▶</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
